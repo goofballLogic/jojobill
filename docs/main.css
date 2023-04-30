@@ -1,4 +1,12 @@
 html, body { min-height: 100vh; height: 100%; font-family: Cursive; }
 
-body { display: flex; flex-direction: column; align-items: middle; background: rgb(131,58,180);
+body { display: flex; flex-direction: column; justify-content: middle; background: rgb(131,58,180);
 background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);}
+
+main {
+  margin: auto auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 3px;
+  box-shadow: 0 0 20px 0 silver;
+}
